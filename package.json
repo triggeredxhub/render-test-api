@@ -4,9 +4,12 @@
   "description": "A minimal Node.js API for Render testing",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "seeder": "node database.seeder.js"
   },
   "dependencies": {
-    "express": "4.18.2"
+    "dotenv": "^17.2.1",
+    "express": "4.18.2",
+    "sequelize": "^6.37.7"
   }
 }
