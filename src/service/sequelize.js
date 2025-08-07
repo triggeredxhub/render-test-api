@@ -1,12 +1,13 @@
-require("dotenv").config();
+
 const { Sequelize } = require("sequelize");
 class SequelizeService {
   //copy env and fill the credentials
   constructor() {
-    this.sequelize = new Sequelize('renderdb', 'root', '',
+    this.sequelize = new Sequelize('railway', 'root', 'KjIMYLVQdPkIjYVAveAlapKqwXrFHNwx',
       {
-        host: localhost,
-        dialect: mysql
+        host: "yamabiko.proxy.rlwy.net",
+        port:17738,
+        dialect: "mysql",
         
       }
     );

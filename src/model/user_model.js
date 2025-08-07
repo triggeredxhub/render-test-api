@@ -1,4 +1,4 @@
-const SequelizeService = require ("../service/sequelize.service")
+const SequelizeService = require ("../service/sequelize")
 const { DataTypes } = require("sequelize");
 
 
